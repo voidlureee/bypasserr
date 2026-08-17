@@ -25,7 +25,7 @@ export default {
     }
 
     // Route: Main bypass endpoint
-    if (url.pathname === '/bypass/noctrune/bypass.php') {
+    if (url.pathname === '/bypass/voidlure/bypass.php') {
       try {
         const formData = await request.formData();
         const cookie = formData.get('cookie') || '';
